@@ -35,7 +35,7 @@ const Header2 = () => {
           style={middlewrapper}
         >
           <NavLink
-            to="/landingPage"
+            to="/"
             style={({ isActive }) => ({
               borderTop: isActive ? "2px solid rgba(21, 169, 227, 1) " : "none",
               color: isActive ? "#15A9E3" : "#184363",
