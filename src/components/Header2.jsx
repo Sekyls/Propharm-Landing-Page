@@ -49,7 +49,7 @@ const Header2 = () => {
             Home
           </NavLink>
           <NavLink
-            to="/$"
+            to="/brand-shop"
             className="text-center pt-sans-bold-custom"
             style={({ isActive }) => ({
               borderTop: isActive ? "2px solid rgba(21, 169, 227, 1)" : "none",
@@ -79,7 +79,7 @@ const Header2 = () => {
             </button>
           </NavLink>
           <NavLink
-            to="/#####"
+            to="/category-shop"
             style={({ isActive }) => ({
               borderTop: isActive ? "2px solid rgba(21, 169, 227, 1)" : "none",
               color: isActive ? "#15A9E3" : "#184363",
@@ -94,7 +94,7 @@ const Header2 = () => {
             Shop by Category
           </NavLink>
           <NavLink
-            to="/###"
+            to="/Blog-post"
             style={({ isActive }) => ({
               borderTop: isActive ? "2px solid rgba(21, 169, 227, 1)" : "none",
               color: isActive ? "#15A9E3" : "#184363",
@@ -109,7 +109,7 @@ const Header2 = () => {
             Blog
           </NavLink>
           <NavLink
-            to="/##"
+            to="/shop-lists"
             style={({ isActive }) => ({
               borderTop: isActive ? "2px solid rgba(21, 169, 227, 1)" : "none",
               color: isActive ? "#15A9E3" : "#184363",
@@ -124,7 +124,7 @@ const Header2 = () => {
             Shop
           </NavLink>
           <NavLink
-            to="//#"
+            to="/elements-list"
             style={({ isActive }) => ({
               borderTop: isActive ? "2px solid rgba(21, 169, 227, 1)" : "none",
               color: isActive ? "#15A9E3" : "#184363",
@@ -139,7 +139,7 @@ const Header2 = () => {
             Elements
           </NavLink>
           <NavLink
-            to="/#"
+            to="/features-list"
             style={({ isActive }) => ({
               borderTop: isActive ? "2px solid rgba(21, 169, 227, 1)" : "none",
               color: isActive ? "#15A9E3" : "#184363",
